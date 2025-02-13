@@ -1,49 +1,49 @@
-[\[English\]](README.md) [\[Português\]](#CardFlagIdentifier)
+[\[English\]](#CardFlagIdentifier) [\[Português\]](assets/READMEP.md)
 _______________________________________________________________________________________________________________________________________
 # CardFlagIdentifier
-# Web API - Identifica Bandeira do Cartão de Crédito
+# Web API - Identifies Credit Card Flag
 
-Este projeto é uma Web API desenvolvida em .NET que recebe um número de cartão de crédito e retorna a bandeira correspondente.
+This project is a Web API developed in .NET that receives a credit card number and returns the corresponding flag.
 
-## Tecnologias Utilizadas
+## Technologies Used
 
-- .NET 9 
+- .NET 9
 - ASP.NET Core Web API
-- Swagger para documentação
+- Swagger for documentation
 
-## Como Executar o Projeto
+## How to Run the Project
 
-### Pré-requisitos
+### Prerequisites
 
-Certifique-se de ter instalado:
+Make sure you have installed:
 
-- [SDK do .NET](https://dotnet.microsoft.com/download)
+- [.NET SDK](https://dotnet.microsoft.com/download)
 - [Git](https://git-scm.com/)
 
-### Clonar o Repositório
+### Clone the Repository
 
 ```sh
 git clone https://github.com/G10van1/CardFlagIdentifier
 cd CardFlagIdentifier
 ```
 
-### Restaurar Dependências
+### Restore Dependencies
 
 ```sh
 dotnet restore
 ```
 
-### Executar a API
+### Run the API
 
 ```sh
 dotnet run
 ```
 
-A API estará disponível em `https://localhost:44343`
+The API will be available at `https://localhost:44343`
 
-## Endpoints Disponíveis
+## Available Endpoints
 
-### Verifica Bandeira do Cartão
+### Check Flag Card
 
 **Endpoint:** `GET /cardflag/{card number}`
 
@@ -51,7 +51,7 @@ A API estará disponível em `https://localhost:44343`
 
 ```json
 {
-  "numeroCartao": "4111111111111111"
+"cardnumber": "4111111111111111"
 }
 ```
 
@@ -59,23 +59,23 @@ A API estará disponível em `https://localhost:44343`
 
 ```json
 {
-  "Visa"
+"Visa"
 }
 ```
-## Cartões Reconhecidos
+## Recognized Cards
 
+![Cards](./assets/flags.jpg)
 
-![Cartões](./assets/flags.jpg)
+## Contribution
 
-## Contribuição
+1. Fork the repository.
 
-1. Fork o repositório.
-2. Crie uma branch com sua feature: `git checkout -b minha-feature`
-3. Commite suas alterações: `git commit -m 'Adiciona nova funcionalidade'`
-4. Envie para a branch principal: `git push origin minha-feature`
-5. Abra um Pull Request.
+2. Create a branch with your feature: `git checkout -b my-feature`
+3. Commit your changes: `git commit -m 'Adds new feature'`
+4. Push to the main branch: `git push origin my-feature`
+5. Open a Pull Request.
 
-## Licença
+## License
 
-Este projeto está sob a licença MIT.
+This project is under the MIT license.
 
