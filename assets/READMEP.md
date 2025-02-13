@@ -60,7 +60,7 @@ A API estará disponível em `https://localhost:44343`
 
 ```json
 {
-  "Visa"
+  "flag": "Visa"
 }
 ```
 ## Cartões Reconhecidos
