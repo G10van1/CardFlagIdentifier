@@ -37,13 +37,13 @@ dotnet restore
 dotnet run
 ```
 
-A API estará disponível em `https://localhost:44343`.
+A API estará disponível em `https://localhost:44343`
 
 ## Endpoints Disponíveis
 
 ### Verifica Bandeira do Cartão
 
-**Endpoint:** `GET /cardflag/{número do cartão}`
+**Endpoint:** `GET /cardflag/{card number}`
 
 **Request Body:**
 
@@ -62,6 +62,7 @@ A API estará disponível em `https://localhost:44343`.
 ```
 ## Cartões Reconhecidos
 
+
 ![Cartões](./assets/flags.jpg)
 
 ## Contribuição
@@ -74,5 +75,5 @@ A API estará disponível em `https://localhost:44343`.
 
 ## Licença
 
-Este projeto está sob a licença MIT. Para mais detalhes, consulte o arquivo `LICENSE`.
+Este projeto está sob a licença MIT.
 
