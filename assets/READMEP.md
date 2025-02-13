@@ -52,7 +52,7 @@ A API estará disponível em `https://localhost:44343`
 
 ```json
 {
-  "numeroCartao": "4111111111111111"
+  "cardNumber": "4111111111111111"
 }
 ```
 
