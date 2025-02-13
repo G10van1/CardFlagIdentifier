@@ -60,6 +60,9 @@ A API estará disponível em `https://localhost:44343`.
   "Visa"
 }
 ```
+## Cartões Reconhecidos
+
+[Cartões](./assets/flags.jpg)
 
 ## Contribuição
 
