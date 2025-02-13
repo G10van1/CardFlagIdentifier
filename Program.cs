@@ -38,10 +38,10 @@ app.MapGet("/cardflag/{cardNumber}", (string cardNumber) =>
     {
         if (Regex.IsMatch(cardNumber, cardFlag.Value))
         {
-            return cardFlag.Key;
+            return Results.Json(new { flag = cardFlag.Key });
         }
     }
-    return "Cartão não identificado";
+    return Results.Json(new { flag = "Unidentified" });
 });
 
 app.Run();
