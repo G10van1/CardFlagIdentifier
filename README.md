@@ -1,3 +1,5 @@
+[\[English\]](README.md) [\[Português\]](#CardFlagIdentifier)
+_______________________________________________________________________________________________________________________________________
 # CardFlagIdentifier
 # Web API - Identifica Bandeira do Cartão de Crédito
 
