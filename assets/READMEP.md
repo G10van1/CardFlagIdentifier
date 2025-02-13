@@ -66,7 +66,7 @@ A API estará disponível em `https://localhost:44343`
 ## Cartões Reconhecidos
 
 
-![Cartões](./assets/flags.jpg)
+![Cartões](./flags.jpg)
 
 ## Contribuição
 
